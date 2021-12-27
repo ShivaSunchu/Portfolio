@@ -1,5 +1,109 @@
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap');
 body{
     font-family: 'DM Sans', sans-serif;
+    margin: 0rem;
+
 }
- 
+:root{
+    --primary-color: #90CED0;
+    --secondary-color: #3f3d56;
+    --tertiary-color: #262534;
+    --off-white: #f2f2f2;
+}
+hr{
+    margin: 2rem 0rem;
+}
+body{
+    font-family: 'DM Sans', sans-serif;
+}
+
+.container{
+   padding: 0rem 1rem;
+}
+.center-container{
+    max-width: 600px;
+    margin: auto;
+}
+.link{
+    text-decoration: none;
+    padding: 0.6rem 0.6rem;
+    border-radius: 0.4rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    color: white;
+}
+.link-secondary{
+    border: 0.2rem solid var(--primary-color);
+    padding: 0.45rem;
+    color: var(--secondary-color);
+}
+.list{
+    list-style: none;
+}
+.inline-list{
+    display: inline;
+    padding: 0rem 1rem;
+}
+.navigation{
+    background-color: var(--primary-color);
+    color: var(--secondary-color); 
+    padding: 1rem 1rem;
+    border-radius: 1rem 0.2rem;
+}
+.navigation .link{
+    color: white;
+    text-align: right;
+    
+}
+.nav-pills{
+    text-align: right;
+}
+.nav-brand{
+    font-weight: bolder;
+    font-size: 1.2rem;
+    color: var(--tertiary-color);
+}
+.navigation .link-active {
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+.hero{
+    padding: 2rem;
+}
+.hero .hero-img{
+    max-width:400px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+padding-top: 1rem;
+text-align: center;
+}
+.hero .hero-heading .heading-change{
+    color: var(--primary-color);
+}
+.section {
+    padding: 2rem;
+}
+.section h1 {  
+    text-align: center;
+}
+.off-white{
+    background-color: var(--off-white);
+}
+.footer{
+    background-color: var(--primary-color);
+    padding: 1rem 0rem;
+    color: var(--tertiary-color);
+    border-radius: 0.2rem 1rem;
+    text-align: center;
+}
+.footer .link {
+    color: white;
+    text-align: center;
+}
+.footer-header{
+    font-weight: bold;
+    font-size: larger;
+}
